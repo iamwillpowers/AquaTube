@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0C7F102A60E9E00053A7F3 /* ColorChangerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0C7F0F2A60E9E00053A7F3 /* ColorChangerView.swift */; };
+		CD0C7F122A610F0C0053A7F3 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0C7F112A610F0C0053A7F3 /* PopupView.swift */; };
+		CD36AD172A5D599B00EEDE53 /* AquaTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36AD162A5D599B00EEDE53 /* AquaTubeApp.swift */; };
+		CD36AD1B2A5D599C00EEDE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD36AD1A2A5D599C00EEDE53 /* Assets.xcassets */; };
+		CD36AD1E2A5D599C00EEDE53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD36AD1D2A5D599C00EEDE53 /* Preview Assets.xcassets */; };
+		CD36AD252A5D59CA00EEDE53 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36AD242A5D59CA00EEDE53 /* BluetoothManager.swift */; };
+		CD4402BD2A660A72008FC5CD /* AquaTube.ino in Resources */ = {isa = PBXBuildFile; fileRef = CD4402BC2A660A72008FC5CD /* AquaTube.ino */; };
+		CD8131E92A633A5D00FE44EE /* PeripheralListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8131E82A633A5D00FE44EE /* PeripheralListView.swift */; };
+		CD8131EB2A633AB200FE44EE /* PeripheralItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8131EA2A633AB200FE44EE /* PeripheralItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD0C7F0F2A60E9E00053A7F3 /* ColorChangerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangerView.swift; sourceTree = "<group>"; };
+		CD0C7F112A610F0C0053A7F3 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		CD36AD132A5D599B00EEDE53 /* AquaTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD36AD162A5D599B00EEDE53 /* AquaTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaTubeApp.swift; sourceTree = "<group>"; };
+		CD36AD1A2A5D599C00EEDE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD36AD1D2A5D599C00EEDE53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD36AD242A5D59CA00EEDE53 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		CD4402BC2A660A72008FC5CD /* AquaTube.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AquaTube.ino; sourceTree = "<group>"; };
+		CD8131E82A633A5D00FE44EE /* PeripheralListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralListView.swift; sourceTree = "<group>"; };
+		CD8131EA2A633AB200FE44EE /* PeripheralItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD36AD102A5D599B00EEDE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD36AD0A2A5D599B00EEDE53 = {
+			isa = PBXGroup;
+			children = (
+				CD36AD152A5D599B00EEDE53 /* AquaTube */,
+				CD36AD142A5D599B00EEDE53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD36AD142A5D599B00EEDE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD36AD132A5D599B00EEDE53 /* AquaTube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD36AD152A5D599B00EEDE53 /* AquaTube */ = {
+			isa = PBXGroup;
+			children = (
+				CD36AD162A5D599B00EEDE53 /* AquaTubeApp.swift */,
+				CD36AD242A5D59CA00EEDE53 /* BluetoothManager.swift */,
+				CD8131E82A633A5D00FE44EE /* PeripheralListView.swift */,
+				CD8131EA2A633AB200FE44EE /* PeripheralItemView.swift */,
+				CD0C7F112A610F0C0053A7F3 /* PopupView.swift */,
+				CD0C7F0F2A60E9E00053A7F3 /* ColorChangerView.swift */,
+				CD4402BA2A660A72008FC5CD /* Arduino Nano 33 BLE */,
+				CD36AD1A2A5D599C00EEDE53 /* Assets.xcassets */,
+				CD36AD1C2A5D599C00EEDE53 /* Preview Content */,
+			);
+			path = AquaTube;
+			sourceTree = "<group>";
+		};
+		CD36AD1C2A5D599C00EEDE53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD36AD1D2A5D599C00EEDE53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD4402BA2A660A72008FC5CD /* Arduino Nano 33 BLE */ = {
+			isa = PBXGroup;
+			children = (
+				CD4402BB2A660A72008FC5CD /* AquaTube */,
+			);
+			path = "Arduino Nano 33 BLE";
+			sourceTree = SOURCE_ROOT;
+		};
+		CD4402BB2A660A72008FC5CD /* AquaTube */ = {
+			isa = PBXGroup;
+			children = (
+				CD4402BC2A660A72008FC5CD /* AquaTube.ino */,
+			);
+			path = AquaTube;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD36AD122A5D599B00EEDE53 /* AquaTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD36AD212A5D599C00EEDE53 /* Build configuration list for PBXNativeTarget "AquaTube" */;
+			buildPhases = (
+				CD36AD0F2A5D599B00EEDE53 /* Sources */,
+				CD36AD102A5D599B00EEDE53 /* Frameworks */,
+				CD36AD112A5D599B00EEDE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquaTube;
+			productName = AquaTube;
+			productReference = CD36AD132A5D599B00EEDE53 /* AquaTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD36AD0B2A5D599B00EEDE53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CD36AD122A5D599B00EEDE53 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CD36AD0E2A5D599B00EEDE53 /* Build configuration list for PBXProject "AquaTube" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD36AD0A2A5D599B00EEDE53;
+			productRefGroup = CD36AD142A5D599B00EEDE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD36AD122A5D599B00EEDE53 /* AquaTube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD36AD112A5D599B00EEDE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD36AD1E2A5D599C00EEDE53 /* Preview Assets.xcassets in Resources */,
+				CD36AD1B2A5D599C00EEDE53 /* Assets.xcassets in Resources */,
+				CD4402BD2A660A72008FC5CD /* AquaTube.ino in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD36AD0F2A5D599B00EEDE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8131EB2A633AB200FE44EE /* PeripheralItemView.swift in Sources */,
+				CD8131E92A633A5D00FE44EE /* PeripheralListView.swift in Sources */,
+				CD36AD252A5D59CA00EEDE53 /* BluetoothManager.swift in Sources */,
+				CD0C7F122A610F0C0053A7F3 /* PopupView.swift in Sources */,
+				CD0C7F102A60E9E00053A7F3 /* ColorChangerView.swift in Sources */,
+				CD36AD172A5D599B00EEDE53 /* AquaTubeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD36AD1F2A5D599C00EEDE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD36AD202A5D599C00EEDE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD36AD222A5D599C00EEDE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AquaTube/Preview Content\"";
+				DEVELOPMENT_TEAM = 3V8S45MBDY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AquaTube/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses bluetooth to find, connect, and transmit data to the bubble tube device.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses bluetooth to find, connect and transfer data to the bubble tube device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ion6.AquaTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD36AD232A5D599C00EEDE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AquaTube/Preview Content\"";
+				DEVELOPMENT_TEAM = 3V8S45MBDY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AquaTube/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses bluetooth to find, connect, and transmit data to the bubble tube device.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses bluetooth to find, connect and transfer data to the bubble tube device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ion6.AquaTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD36AD0E2A5D599B00EEDE53 /* Build configuration list for PBXProject "AquaTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD36AD1F2A5D599C00EEDE53 /* Debug */,
+				CD36AD202A5D599C00EEDE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD36AD212A5D599C00EEDE53 /* Build configuration list for PBXNativeTarget "AquaTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD36AD222A5D599C00EEDE53 /* Debug */,
+				CD36AD232A5D599C00EEDE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD36AD0B2A5D599B00EEDE53 /* Project object */;
+}
